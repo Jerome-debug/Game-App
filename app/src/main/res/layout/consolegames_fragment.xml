@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.ConsolegamesFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#131212"
+        android:src="@drawable/consolegames"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/cart1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="152dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/cart3"
+        app:layout_constraintEnd_toStartOf="@+id/like2"
+        app:layout_constraintStart_toEndOf="@+id/like1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shoppingcart" />
+
+    <ImageView
+        android:id="@+id/like1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="152dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/like3"
+        app:layout_constraintEnd_toStartOf="@+id/cart1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/like2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="145dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/like4"
+        app:layout_constraintEnd_toStartOf="@+id/cart2"
+        app:layout_constraintStart_toEndOf="@+id/cart1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cart2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="158dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/cart4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/like2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/like3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="151dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/like5"
+        app:layout_constraintEnd_toStartOf="@+id/cart3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/like1" />
+
+    <ImageView
+        android:id="@+id/cart3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="151dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/cart5"
+        app:layout_constraintEnd_toStartOf="@+id/like4"
+        app:layout_constraintStart_toEndOf="@+id/like3"
+        app:layout_constraintTop_toBottomOf="@+id/cart1" />
+
+    <ImageView
+        android:id="@+id/like4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="164dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/like6"
+        app:layout_constraintEnd_toStartOf="@+id/cart4"
+        app:layout_constraintStart_toEndOf="@+id/cart3"
+        app:layout_constraintTop_toBottomOf="@+id/like2" />
+
+    <ImageView
+        android:id="@+id/cart4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="151dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/cart6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/like4"
+        app:layout_constraintTop_toBottomOf="@+id/cart2" />
+
+    <ImageView
+        android:id="@+id/like5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cart5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/like3" />
+
+    <ImageView
+        android:id="@+id/cart5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="29dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/like6"
+        app:layout_constraintStart_toEndOf="@+id/like5"
+        app:layout_constraintTop_toBottomOf="@+id/cart3" />
+
+    <ImageView
+        android:id="@+id/like6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cart6"
+        app:layout_constraintStart_toEndOf="@+id/cart5"
+        app:layout_constraintTop_toBottomOf="@+id/like4" />
+
+    <ImageView
+        android:id="@+id/cart6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/like6"
+        app:layout_constraintTop_toBottomOf="@+id/cart4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

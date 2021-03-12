@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".VrGamesFragment">
+
+    <TextView
+        android:id="@+id/textview_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toTopOf="@+id/vr_like4"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart2"
+        app:layout_constraintStart_toEndOf="@+id/vr_cart1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="765dp"
+        android:layout_marginTop="1dp"
+        android:background="#F6F1F1"
+        android:src="@drawable/vrlist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vr_like1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="171dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/vr_like3"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vr_cart1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="171dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/vr_cart3"
+        app:layout_constraintEnd_toStartOf="@+id/textview_second"
+        app:layout_constraintStart_toEndOf="@+id/vr_like1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vr_like2"
+        android:layout_width="34dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toBottomOf="@+id/vr_cart2"
+        app:layout_constraintStart_toEndOf="@+id/vr_cart1"
+        app:layout_constraintTop_toTopOf="@+id/vr_cart2" />
+
+    <ImageView
+        android:id="@+id/vr_cart2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="165dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/vr_cart4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview_second"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vr_like3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="182dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/vr_like5"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vr_like1" />
+
+    <ImageView
+        android:id="@+id/vr_cart3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="182dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/vr_cart5"
+        app:layout_constraintEnd_toStartOf="@+id/vr_like4"
+        app:layout_constraintStart_toEndOf="@+id/vr_like3"
+        app:layout_constraintTop_toBottomOf="@+id/vr_cart1" />
+
+    <ImageView
+        android:id="@+id/vr_like4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="182dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toTopOf="@+id/vr_like6"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart4"
+        app:layout_constraintStart_toEndOf="@+id/vr_cart3"
+        app:layout_constraintTop_toBottomOf="@+id/textview_second" />
+
+    <ImageView
+        android:id="@+id/vr_cart4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="197dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toTopOf="@+id/vr_cart6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vr_like4"
+        app:layout_constraintTop_toBottomOf="@+id/vr_cart2" />
+
+    <ImageView
+        android:id="@+id/vr_like5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vr_like3" />
+
+    <ImageView
+        android:id="@+id/vr_cart5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="37dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vr_like6"
+        app:layout_constraintStart_toEndOf="@+id/vr_like5"
+        app:layout_constraintTop_toBottomOf="@+id/vr_cart3" />
+
+    <ImageView
+        android:id="@+id/vr_like6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/likeicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vr_cart6"
+        app:layout_constraintStart_toEndOf="@+id/vr_cart5"
+        app:layout_constraintTop_toBottomOf="@+id/vr_like4" />
+
+    <ImageView
+        android:id="@+id/vr_cart6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="22dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/shoppingcart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vr_like6"
+        app:layout_constraintTop_toBottomOf="@+id/vr_cart4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
